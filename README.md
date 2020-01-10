@@ -72,9 +72,20 @@ Thanks!
 ## Using Github Actions
 
 ### New release
+
+1. Create an account in https://test.pypi.org
+2. Create secrets env variables in https://github.com/mxochicale/distinctipy/settings/secrets
+```
+PYPI_USERNAME
+PYPI_PASSWORD 
+```
+
+Then 
+
 	1. change version in [setup.py](/setup.py)
 	2. push commit
 	3. add a new release
 
+Such steps would generate https://test.pypi.org/project/forked-distinctipy/
 
 
