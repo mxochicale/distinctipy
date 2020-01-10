@@ -18,7 +18,7 @@ added to the list being as visually distinct from the pre-existing colours in
 *distinctipy* is designed for Python 3 and can be installed with pip by running:
 
 ```python
-pip3 install distinctipy
+pip install -i https://test.pypi.org/simple/ forked-distinctipy
 ```
 
 Alternatively clone the repo and then in its parent directory run:
