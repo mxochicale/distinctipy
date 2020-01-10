@@ -4,14 +4,14 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="distinctipy",
+    name="forked-distinctipy",
     version="1.1.4",
     author="Jack Roberts",
     author_email="jroberts@turing.ac.uk",
     description="A lightweight package for generating visually distinct colours.",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/alan-turing-institute/distinctipy",
+    url="https://github.com/mxochicale/distinctipy",
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
