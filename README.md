@@ -68,3 +68,13 @@ stack overflow answers. In particular:
 * **Colourblindness Filters:** [Matthew Wickline and the Human-Computer Interaction Resource Network](http://web.archive.org/web/20090318054431/http://www.nofunc.com/Color_Blindness_Library) (web archive)
 
 Thanks!
+
+## Using Github Actions
+
+### New release
+	1. change version in [setup.py](/setup.py)
+	2. push commit
+	3. add a new release
+
+
+
