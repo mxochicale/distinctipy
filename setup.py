@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="forked-distinctipy",
-    version="1.1.4",
+    version="1.1.4.2",
     author="Jack Roberts",
     author_email="jroberts@turing.ac.uk",
     description="A lightweight package for generating visually distinct colours.",
