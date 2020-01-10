@@ -80,12 +80,18 @@ PYPI_USERNAME
 PYPI_PASSWORD 
 ```
 
-Then 
-
-	1. change version in [setup.py](/setup.py)
+Then:
+	1. change version in [setup.py](setup.py)
 	2. push commit
 	3. add a new release
 
 Such steps would generate https://test.pypi.org/project/forked-distinctipy/
 
+
+
+### Test
+
+1. [pythonapp.yml](/.github/workflows/pythonapp.yml)
+2. Changes in the repo
+3. git push origin master
 
